@@ -1,19 +1,12 @@
 title: Setting up a New Blog
 date: 2015-09-03 11:13:32
 categories: Techniques
+tags: Hexo
 ---
 
 ## 安装 Hexo
 
 请参照 [Hexo 官方文档](https://hexo.io/docs/)
-
-## 安装 git 支持
-
-不安装的话，在部署的时候，会提示找不到 git。
-
-``` bash
-$ npm install hexo-deployer-git --save
-```
 
 ## 创建并初始化 Hexo
 
@@ -136,3 +129,7 @@ hexo 的安装默认不会将环境变量添加到 .bashrc 中，我们需要手
 ``` bash
 npm install hexo-deployer-git --save
 ```
+
+### 本地的博客文章被无意中删除了怎么办
+
+首先，通过 hexo 部署的文章可以放到 github 上，但是这个库并不能用来克隆后重新部署，如果本地文章不见了，就没有办法了，所以我们需要把本地的 hexo 博客再建立一个库保存起来，以后每次发布了新文章，需要作的就是两件事，使用 hexo 发布文章，push 代码库。
