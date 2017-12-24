@@ -24,7 +24,7 @@ subnav:
   mail: "mailto:mapleaph@gmail.com"
   #facebook: "#"
   #google: "#"
-  twitter: "twitter.com/mapleaph"
+  twitter: "https://twitter.com/mapleaph"
   #linkedin: "#"
 
 rss: /atom.xml
