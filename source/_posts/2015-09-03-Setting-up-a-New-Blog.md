@@ -8,6 +8,14 @@ tags: Hexo
 
 请参照 [Hexo 官方文档](https://hexo.io/docs/)
 
+## 安装 git 支持
+
+不安装的话，在部署的时候，会提示找不到 git。
+
+``` bash
+$ npm install hexo-deployer-git --save
+```
+
 ## 创建并初始化 Hexo
 
 ``` bash
