@@ -1,5 +1,7 @@
+---
 title: Set up RaspberryPi
 date: 2016-01-28 13:25:25
+toc: true
 Categories: Techniques
 ---
 
@@ -15,6 +17,8 @@ Categories: Techniques
 ### Win32DiskImager
 
 目前仅能够通过这种方法进行写入。使用过程很简单，这里不做描述。
+
+<!--more-->
 
 ## Boot Configuration
 
